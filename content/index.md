@@ -1,16 +1,14 @@
-# Kai's Travel Journal
+# Horizon Travel Photos
 
-Welcome to my travel photography website.
+Travel journals and photography by Kai.
 
-I travel with my wife and document journeys through photos and journals.
+![Petra at Night](Images/00-Jordan_Petra_01.jpg)
 
+## Featured Journeys
 
-![[images/petra-night.jpg]]
+- [[2024 Middle East/穿越时间的长河（0）——2024年3月埃及约旦巴西班牙三国游]]
+- [[2024 Middle East/穿越时间的长河（1）——2024年3月埃及约旦巴西班牙三国游]]
 
-## Featured Trips
+## About This Site
 
-- Egypt 2024
-- Jordan 2024
-- Spain 2024
-
-This site is built with Obsidian + Quartz.
+This is my travel photography journal, built with Obsidian and Quartz.
