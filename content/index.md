@@ -1,4 +1,7 @@
-# Horizon Travel Photos
+---
+title: Horizon Travel & Photos
+---
+
 
 Travel journals and photography by Kai.
 
@@ -6,7 +9,7 @@ Travel journals and photography by Kai.
 
 ## Read Now
 
-- [[穿越时间的长河（0）——2024年3月埃及约旦西班牙三国游]]
+- [[穿越时间的长河（0）——2024年3月埃及约旦西班牙三国游|2024年3月埃及约旦西班牙三国游]]
 
 ## About This Site
 
