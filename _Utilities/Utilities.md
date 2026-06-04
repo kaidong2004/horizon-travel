@@ -20,29 +20,32 @@ Divider 3
 ### Vertical Gallery
 
 > [!vertical]
-> ![[public/Images/00-Egypt_Sphinx_01.jpg]]
+> ![[Images/2024-03-Middle-East/00-Forward/00-Egypt_Sphinx_01.jpg]]
 > 
-> ![[public/Images/00-Jordan_Petra_01.jpg]]
+> ![[Images/2024-03-Middle-East/00-Forward/00-Jordan_Petra_01.jpg]]
 > 
-> ![[public/Images/00-Barcelona_01.jpg]]
+> ![[content/Images/2024 03 Middle East/00 Forward/00-Barcelona_01.jpg]]
 
 
 ### Horizontal Gallery
 > [!horizontal]
-> ![[public/Images/00-Egypt_Sphinx_01.jpg]]
+> ![[content/Images/2024 03 Middle East/00 Forward/00-Egypt_Sphinx_01.jpg]]
 > 
-> ![[public/Images/00-Jordan_Petra_01.jpg]]
+> ![[content/Images/2024 03 Middle East/00 Forward/00-Jordan_Petra_01.jpg]]
 > 
-> ![[public/Images/00-Barcelona_01.jpg]]
+> ![[content/Images/2024 03 Middle East/00 Forward/00-Barcelona_01.jpg]]
 
 
 ### Grid
 
 > [!grid]
-> ![[public/Images/00-Egypt_Sphinx_01.jpg]]
+> ![[content/Images/2024 03 Middle East/00 Forward/00-Egypt_Sphinx_01.jpg]]
 > 
-> ![[public/Images/00-Jordan_Petra_01.jpg]]
+> ![[content/Images/2024 03 Middle East/00 Forward/00-Jordan_Petra_01.jpg]]
 > 
-> ![[public/Images/00-Barcelona_01.jpg]]
+> ![[content/Images/2024 03 Middle East/00 Forward/00-Barcelona_01.jpg]]
 > 
-> ![[public/Images/00-Egypt_Abusimbel_01.jpg]]
+> ![[content/Images/2024 03 Middle East/00 Forward/00-Egypt_Abusimbel_01.jpg]]
+
+
+
