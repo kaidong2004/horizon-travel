@@ -1,0 +1,89 @@
+{
+  "0": {
+    "groups": [["00-Egypt_Sphinx_01.jpg", "00-Jordan_Petra_01.jpg", "00-Barcelona_01.jpg"]],
+    "captions": {
+      "00-Egypt_Sphinx_01.jpg": "开罗",
+      "00-Jordan_Petra_01.jpg": "佩特拉",
+      "00-Barcelona_01.jpg": "巴塞罗那"
+    }
+  },
+  "1": {
+    "groups": [],
+    "captions": {
+      "01-38-Cairo-Street.jpg": "第一次看到埃及的公交车站，也没有专门的区域，大家都在高速最外面的一条车道上等车。",
+      "01-47-Cairo-Hotel.jpg": "这红配绿的搭配也很喜庆就是"
+    }
+  },
+  "2": {
+    "groups": [["02-02-Pyramid.jpg", "02-03--Pyramid.jpg"]],
+    "captions": {
+      "02-01-Pyramid.jpg": "躺平在吉萨，悠然见金塔",
+      "02-02-Pyramid.jpg": "卡夫拉金字塔",
+      "02-03--Pyramid.jpg": "胡夫金字塔",
+      "02-06-Pyramid.jpg": "可以看到远处已经有黑霾升起了。",
+      "02-16-Pyramid.jpg": "他们坐在高高的石堆旁边，听导游讲那过去的故事"
+    }
+  },
+  "3": {
+    "groups": [],
+    "captions": {
+      "03-37.jpg": "2025年5月在英国大英博物馆拍的罗赛塔石碑",
+      "03-38.jpg": "旁边的木乃伊盒子好像在抄着手，贼兮兮的笑呢"
+    }
+  },
+  "4": {
+    "groups": [],
+    "captions": {
+      "04-031.jpg": "阿布辛贝被挖掘后的模样，David Robert绘",
+      "04-052.jpg": "阿斯旺大学城"
+    }
+  },
+  "5": {
+    "groups": [],
+    "captions": {}
+  },
+  "6": {
+    "groups": [],
+    "captions": {
+      "06-004.jpg": "General view of the ruins of Luxor from the Nile illustration by David Roberts (1796-1864).",
+      "06-050.jpg": "三代烟民"
+    }
+  },
+  "7": {
+    "groups": [],
+    "captions": {
+      "07-007.jpg": "Temple Of Edfou (Edfu) illustration by David Roberts (1796-1864).",
+      "07-010.jpg": "荷鲁斯被拍照的人烦的皱起了眉头",
+      "07-065.jpg": "19世纪中叶David Roberts画的大厅柱子",
+      "07-077.jpg": "Grand entrance to the Temple of Luxor illustration by David Roberts (1796-1864)."
+    }
+  },
+  "8": {
+    "groups": [],
+    "captions": {}
+  },
+  "9": {
+    "groups": [],
+    "captions": {
+      "09-005.jpg": "盐湖晒盐的盐场",
+      "09-013.jpg": "高速公路边的水果摊",
+      "09-023.jpg": "高高在上的宙斯神庙俯瞰古城。"
+    }
+  },
+  "10": {
+    "groups": [],
+    "captions": {
+      "10-052.jpg": "在海中平躺着的无一不是“屁股沉底”式",
+      "10-053.jpg": "岸边的大盐块",
+      "10-058.jpg": "水面被染成瑰丽的红铜色，波光粼粼间，分不清那是海水的波动，还是时间流逝的痕迹。"
+    }
+  },
+  "11": {
+    "groups": [],
+    "captions": {
+      "11-001.jpg": "晨曦中的死海",
+      "11-053.jpg": "头顶一个清真寺的坏处，在第二天早晨才清楚的知道",
+      "11-055.jpg": "月朗星不稀"
+    }
+  }
+}

@@ -1,5 +1,7 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { EgyptPhotos } from "./quartz/plugins/transformers/egyptPhotos"
+import { EgyptPilot } from "./quartz/components/EgyptPilot"
 
 /**
  * Quartz 4 Configuration
@@ -70,6 +72,7 @@ const config: QuartzConfig = {
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      EgyptPhotos(),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
@@ -77,7 +80,7 @@ const config: QuartzConfig = {
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
-      Plugin.ContentPage(),
+      Plugin.ContentPage({ pageBody: EgyptPilot }),
       Plugin.FolderPage(),
       Plugin.TagPage(),
       Plugin.ContentIndex({
@@ -88,8 +91,8 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      // Local previews can skip fetching the social-card fonts.
+      ...(process.env.QUARTZ_OFFLINE === "1" ? [] : [Plugin.CustomOgImages()]),
     ],
   },
 }
