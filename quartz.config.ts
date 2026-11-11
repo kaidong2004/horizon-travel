@@ -2,6 +2,7 @@ import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 import { EgyptPhotos } from "./quartz/plugins/transformers/egyptPhotos"
 import { EgyptPilot } from "./quartz/components/EgyptPilot"
+import { TravelHome } from "./quartz/components/TravelHome"
 
 /**
  * Quartz 4 Configuration
@@ -80,7 +81,7 @@ const config: QuartzConfig = {
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
-      Plugin.ContentPage({ pageBody: EgyptPilot }),
+      Plugin.ContentPage({ pageBody: EgyptPilot, homePageBody: TravelHome }),
       Plugin.FolderPage(),
       Plugin.TagPage(),
       Plugin.ContentIndex({

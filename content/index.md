@@ -1,5 +1,6 @@
 ---
 title: Horizon Travel & Photos
+lang: zh-Hans
 ---
 
 
