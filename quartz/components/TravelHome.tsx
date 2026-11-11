@@ -3,7 +3,7 @@ import { FullSlug, resolveRelative } from "../util/path"
 import styles from "./styles/travelHome.scss"
 import { QuartzComponent } from "./types"
 
-const featuredJournals = [
+const latestJournals = [
   {
     number: 13,
     place: "约旦 · 阿卡巴",
@@ -12,18 +12,19 @@ const featuredJournals = [
     alt: "阿卡巴湾对岸的山脉与岸边的约旦国旗",
   },
   {
+    number: 12,
+    place: "约旦 · 瓦迪拉姆",
+    title: "从佩特拉到瓦迪拉姆",
+    description: "离开佩特拉，坐皮卡穿过红色沙漠，看天然石桥、蘑菇岩和日落。",
+    image: "Images/2024-03-Middle-East/12/12-38-Mushroom-Rock-Wadi-Rum.jpg.720.webp",
+    alt: "瓦迪拉姆沙漠中的蘑菇岩",
+  },
+  {
     number: 11,
     place: "约旦 · 佩特拉",
     title: "佩特拉的日与夜",
     description: "穿过蛇道，在峡谷尽头见到卡兹尼神殿，再等到烛光亮起。",
     alt: "玫瑰色岩壁间的卡兹尼神殿",
-  },
-  {
-    number: 2,
-    place: "埃及 · 吉萨",
-    title: "开罗第一天，去看金字塔",
-    description: "从吉萨的金字塔和狮身人面像，读起这段埃及之旅。",
-    alt: "吉萨金字塔与狮身人面像",
   },
 ]
 
@@ -84,13 +85,13 @@ export const TravelHome: QuartzComponent = ({ fileData, allFiles }) => {
         </section>
         <section class="stories" id="journals" aria-labelledby="stories-title">
           <div class="section-head">
-            <h2 id="stories-title">精选游记</h2>
+            <h2 id="stories-title">最新游记</h2>
             <a class="text-link" href={overview}>
               查看完整目录<span aria-hidden="true">↗</span>
             </a>
           </div>
           <div class="story-grid">
-            {featuredJournals.map(({ number, place, title, description, alt }) => {
+            {latestJournals.map(({ number, place, title, description, image, alt }) => {
               const slug = journals.get(number)
               if (!slug) return null
 
@@ -98,7 +99,7 @@ export const TravelHome: QuartzComponent = ({ fileData, allFiles }) => {
                 <article key={number}>
                   <a class="story" href={href(slug)}>
                     <img
-                      src={cover(`${number}-small.webp`)}
+                      src={image ? href(image as FullSlug) : cover(`${number}-small.webp`)}
                       width="640"
                       height="426"
                       alt={alt}
